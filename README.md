@@ -4,7 +4,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
-- [Cluster info and status:](#cluster-info-and-status)
+- [Cluster info and status](#cluster-info-and-status)
 - [Bucket Operations:](#bucket-operations)
 	- [Bucket instance attributes](#bucket-instance-attributes)
 	- [Bucket instance methods](#bucket-instance-methods)
@@ -114,7 +114,7 @@ var sessions = require('nodiak').getClient('http', '192.168.2.20', 8098);
 var db = require('nodiak').getClient();
 ```
 
-##Cluster info and status:
+##Cluster info and status
 ####.ping( _callback_ );
 ###### //  check that you can reach Riak
 
